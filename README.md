@@ -5,7 +5,7 @@ Noxelは作家とイラストレーターを繋げるサービスです。転職
 * ログイン画面にあるデモボタンを押すとテストユーザーとしてログインできます。
 ![home](https://user-images.githubusercontent.com/51396383/66777923-384dab80-ef05-11e9-9ee2-96e84c1e7059.png)
 
-# 使用した技術, Gem
+# 使用した技術
 * ruby 2.5.0  
 * Ruby on Rails 6.0.0  
   * active_storage(画像アップロード)  
@@ -21,7 +21,7 @@ Noxelは作家とイラストレーターを繋げるサービスです。転職
 * Docker
 * CircleCI
 
-使用したGem一覧
+# 使用したGem
 * kaminari  
 * bcrypt  
 * mini_magick  
@@ -48,7 +48,7 @@ MacBookpro上でDocker環境での開発を行なっています。
 
 # これからのアップデート(やってみたいこと)の予定
 * AWS  
-  * メール配信システムにはSES  
   * Route53(または別のサイトでドメインを取得)を使いドメインを設定  
 * CircleCIを使って自動でテストしてからデプロイできるようにしたい(現在自動テストまで実装済み)
-* testをminitestからRSpecに変更してみたい
+* testをminitestからRSpecに変更してみたい  
+* reactを使ってシングルページアプリケーションを実装してみたい
